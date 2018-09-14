@@ -74,7 +74,7 @@ const w = ['./ww.png'];
                         ctx.fontSize = '20px';
                         ctx.fillStyle = "#f1f1f1";
                         ctx.textAlign = "center";
-                        ctx.fillText(member.user.username, 250 , 200);
+                        ctx.fillText(member.user.username, 250 , 300);
  
                 let Avatar = Canvas.Image;
                               let ava = new Avatar;
