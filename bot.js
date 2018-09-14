@@ -40,7 +40,7 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', (member) => {
-member.addRole(member.guild.roles.find(('name', C O));
+member.addRole(member.guild.roles.find('name', C O);
 });
 client.on('guildMemberAdd', member => {
      const welcomer =  member.guild.channels.find('name', 'chat');
