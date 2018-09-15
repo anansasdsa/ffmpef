@@ -969,7 +969,7 @@ client.on('message', message => {
     });
   }
  
-  if(message.content.startsWith("#startdisco")) {
+  if(message.content.startsWith( prefix + "startdisco")) {
     if(allowedUsers.includes(message.author.id)) {
     setInterval(() => { discoRole(); }, config.ms);
     message.channel.send("```css\nDiscoing...```");
@@ -979,7 +979,7 @@ client.on('message', message => {
   }
 } else
  
-if(message.content.startsWith("#stopdisco")) {
+if(message.content.startsWith(prefix + "stopdisco")) {
   if(allowedUsers.includes(message.author.id)) {
   message.channel.send("I've stopped discoing.");
   setTimeout(() => { console.log(process.exit(0)); }, 300);
