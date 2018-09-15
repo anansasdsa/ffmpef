@@ -70,7 +70,7 @@ const w = ['./ww.png'];
                         ctx.textAlign = "center";
                         ctx.fillText(`welcome `, 500, 100);
                        
-                        ctx.font = "bold 30px Arial";
+                        ctx.font = "bold 25px Arial";
                         ctx.fontSize = '20px';
                         ctx.fillStyle = "#f1f1f1";
                         ctx.textAlign = "center";
