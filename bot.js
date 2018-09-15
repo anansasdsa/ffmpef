@@ -83,7 +83,7 @@ const w = ['./ww.png'];
                               ctx.arc(77, 101, 62, 0, Math.PI*2);
                               ctx.stroke();
                                  ctx.clip();
-                                 ctx.drawImage(ava, 33, 38, 128, 126);  
+                                 ctx.drawImage(ava, 59, 38, 128, 126);  
                          
                
                              
