@@ -1,7 +1,6 @@
 {
-  "token" : "NDkwMTUwOTY4ODE0NDY5MTMy.Dn7tXQ.V2bJg0Qo4EFTbPT6j7TL0I4Lo0s", //لا تلعب بيها بقيه ثابته
+  "token" : "NDkwMTUwOTY4ODE0NDY5MTMy.Dn7tXQ.V2bJg0Qo4EFTbPT6j7TL0I4Lo0s",    
   "ms" : 1500,
-  "roleToDisco" : ["disco"], // اسم رتبه انت اختارها
-  "prefix" : "#",// تقدر تبدلها
-  "allowedUsers" : ["354716386716811264", "389090790984515594"] ///ايدي حقك
-}
+  "roleToDisco" : ["disco"],
+  "prefix" : "#",
+  "allowedUsers" : ["476058509851754496", "373458893051002890"]
