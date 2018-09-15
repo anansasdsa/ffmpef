@@ -65,13 +65,13 @@ const w = ['./ww.png'];
                         if (err) return console.log(err);
                        
                         ctx.font = "bold 12px Arial";
-                        ctx.fontSize = '20px';
+                        ctx.fontSize = '50px';
                         ctx.fillStyle = "#f1f1f1";
                         ctx.textAlign = "center";
                         ctx.fillText(`welcome `, 500, 100);
                        
                         ctx.font = "bold 12px Arial";
-                        ctx.fontSize = '50px';
+                        ctx.fontSize = '100px';
                         ctx.fillStyle = "#f1f1f1";
                         ctx.textAlign = "center";
                         ctx.fillText(member.user.username, 250 , 110);
