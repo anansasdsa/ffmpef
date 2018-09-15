@@ -4,6 +4,7 @@ const fs = require("fs");
 const Canvas = require('canvas')
 const jimp = require('jimp')
 const moment = require('moment');
+const dateFormat = require('dateformat');
 let done = {};
 
 client.on('ready', () => {
