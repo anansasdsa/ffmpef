@@ -71,7 +71,7 @@ const w = ['./ww.png'];
                         ctx.fillText(`welcome `, 500, 100);
                        
                         ctx.font = "bold 12px Arial";
-                        ctx.fontSize = '30px';
+                        ctx.fontSize = '50px';
                         ctx.fillStyle = "#f1f1f1";
                         ctx.textAlign = "center";
                         ctx.fillText(member.user.username, 250 , 110);
