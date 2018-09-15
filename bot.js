@@ -935,7 +935,7 @@ client.on('message', message => {
         let muterole = message.guild.roles.find("name", "muted")
         let men = message.mentions.users.first()
 
-        if(message.content.startsWith(prefix + "mute")) {
+        if(message.content.startsWith("#mute")) {
             if(!men) return message.channel.send("**Do you want me to mute you 🤔 ?, please @mention someone. `Ex. #mute @xRokz bad boy`**");
             if(!reason) return message.channel.send("**Do you want me to mute " + men.username + " with no reason ?, `Ex. #mute @xRokz bad boy` or just use `none` for no reason **`")
             if(!muterole) {
@@ -946,7 +946,7 @@ client.on('message', message => {
                 message.channel.send("**" + men.username + " has been muted! :zipper_mouth:**")
         }
 
-        if(message.content.startsWith(prefix + "unmute")) {
+        if(message.content.startsWith("#unmute")) {
             if(!men) return message.channel.send("**please @mention someone. `Ex. #unmute <@!298732816995319809> bad boy`**");
 
             if(!muterole) {
